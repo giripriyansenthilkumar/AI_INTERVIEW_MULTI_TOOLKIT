@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Career Preparation Toolkit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="app-header">
+            <h1>AI Career Preparation Toolkit</h1>
+            <p>Your complete AI-powered career preparation suite</p>
+        </header>
+
+        <!-- Tab Navigation -->
+        <nav class="tab-navigation">
+            <button id="tab-interview" class="tab-button active" data-tab="mock-interview">
+                🎤 Mock Interview
+            </button>
+            <button id="tab-resume" class="tab-button" data-tab="resume-optimizer">
+                📄 Resume Optimizer
+            </button>
+            <button id="tab-research" class="tab-button" data-tab="research-agent">
+                🔍 Research Agent
+            </button>
+        </nav>
+
+        <!-- Tab Content -->
+        <main class="tab-content">
+            <!-- Mock Interview Tab -->
+            <section id="mock-interview" class="tab-panel active">
+                <!-- Interview Setup Form -->
+                <div id="interview-setup-form" class="setup-section">
+                    <div class="card">
+                        <div class="card__header">
+                            <h2>AI Mock Interview</h2>
+                            <p>Get ready for your next interview with AI-powered practice sessions</p>
+                        </div>
+                        <div class="card__body">
+                            <form id="interview-setup">
+                                <div class="form-group">
+                                    <label class="form-label" for="interview-role">Job Role</label>
+                                    <input type="text" id="interview-role" class="form-control" placeholder="e.g. Software Engineer, Product Manager" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="interview-industry">Industry</label>
+                                    <select id="interview-industry" class="form-control" required>
+                                        <option value="">Select an industry</option>
+                                        <option value="technology">Technology</option>
+                                        <option value="finance">Finance</option>
+                                        <option value="healthcare">Healthcare</option>
+                                        <option value="retail">Retail</option>
+                                        <option value="education">Education</option>
+                                        <option value="manufacturing">Manufacturing</option>
+                                        <option value="consulting">Consulting</option>
+                                        <option value="marketing">Marketing</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="interview-difficulty">Difficulty Level</label>
+                                    <select id="interview-difficulty" class="form-control" required>
+                                        <option value="">Select difficulty</option>
+                                        <option value="beginner">Beginner</option>
+                                        <option value="intermediate">Intermediate</option>
+                                        <option value="advanced">Advanced</option>
+                                    </select>
+                                </div>
+                                <button type="submit" id="start-interview-btn" class="btn btn--primary btn--full-width">
+                                    <span class="btn-text">Start Interview</span>
+                                    <div class="spinner hidden" id="start-interview-spinner"></div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interview Panel -->
+                <div id="interview-panel" class="interview-section hidden">
+                    <div class="card">
+                        <div class="card__header">
+                            <h2>Mock Interview Session</h2>
+                            <div class="flex justify-between items-center">
+                                <div class="status status--info">In Progress</div>
+                                <button id="end-interview-btn" class="btn btn--outline btn--sm">End Interview</button>
+                            </div>
+                        </div>
+                        <div class="card__body">
+                            <!-- Question Display -->
+                            <div class="question-section">
+                                <h3>Current Question:</h3>
+                                <div id="current-question" class="question-text">Loading your first question...</div>
+                                <audio id="tts-audio" style="display: none;" autoplay></audio>
+                            </div>
+
+                            <!-- Recording Controls -->
+                            <div class="recording-section">
+                                <div class="recording-controls">
+                                    <button id="record-btn" class="btn btn--primary">
+                                        <span id="record-text">🎤 Start Recording</span>
+                                    </button>
+                                    <div id="recording-status" class="recording-status hidden">
+                                        <div class="recording-indicator"></div>
+                                        <span>Recording...</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- Fallback Text Input -->
+                                <div id="text-input-section" class="text-input-section hidden">
+                                    <p class="text-secondary">Microphone not available. Please type your answer:</p>
+                                    <textarea id="text-answer" class="form-control" rows="4" placeholder="Type your answer here..."></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Submit Answer -->
+                            <div class="submit-section">
+                                <button id="submit-answer-btn" class="btn btn--secondary btn--full-width" disabled>
+                                    <span class="btn-text">Submit Answer</span>
+                                    <div class="spinner hidden" id="submit-answer-spinner"></div>
+                                </button>
+                            </div>
+
+                            <!-- Feedback Display -->
+                            <div id="feedback-section" class="feedback-section">
+                                <h4>Interview Feedback:</h4>
+                                <div id="feedback-list" class="feedback-list">
+                                    <p class="text-secondary">Your feedback will appear here after submitting answers.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resume Optimizer Tab -->
+            <section id="resume-optimizer" class="tab-panel">
+                <div class="card">
+                    <div class="card__header">
+                        <h2>AI Resume Optimizer</h2>
+                        <p>Optimize your resume for specific job descriptions with AI-powered analysis</p>
+                    </div>
+                    <div class="card__body">
+                        <form id="resume-optimizer-form">
+                            <div class="form-group">
+                                <label class="form-label" for="resume-upload">Upload Resume</label>
+                                <div id="resume-drop-zone" class="file-drop-zone">
+                                    <input type="file" id="resume-upload" class="form-control file-input" accept=".pdf,.doc,.docx" required>
+                                    <div class="drop-zone-content">
+                                        <div class="drop-zone-icon">📄</div>
+                                        <p class="drop-zone-text">Drag and drop your resume here, or click to select</p>
+                                        <p class="drop-zone-subtext">Supports PDF, DOC, and DOCX files</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="job-description">Job Description</label>
+                                <textarea id="job-description" class="form-control" rows="8" 
+                                    placeholder="Paste the complete job description here..." required></textarea>
+                            </div>
+
+                            <button type="submit" id="optimize-resume-btn" class="btn btn--primary btn--full-width">
+                                <span class="btn-text">Optimize Resume</span>
+                                <div class="spinner hidden" id="optimize-resume-spinner"></div>
+                            </button>
+                        </form>
+
+                        <div id="resume-results" class="results-section hidden">
+                            <h3>Optimization Results</h3>
+                            <div class="results-grid">
+                                <div class="result-card">
+                                    <h4>Optimized Resume</h4>
+                                    <div id="optimized-resume-preview" class="resume-preview"></div>
+                                    <button id="download-resume-btn" class="btn btn--outline btn--sm mt-8">
+                                        Download Optimized Resume
+                                    </button>
+                                </div>
+                                <div class="result-card">
+                                    <h4>Changes & Recommendations</h4>
+                                    <div id="resume-changes" class="changes-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Research Agent Tab -->
+            <section id="research-agent" class="tab-panel">
+                <div class="card">
+                    <div class="card__header">
+                        <h2>AI Research Agent</h2>
+                        <p>Get comprehensive company and role insights powered by AI web search</p>
+                    </div>
+                    <div class="card__body">
+                        <form id="research-form">
+                            <div class="form-group">
+                                <label class="form-label" for="company-name">Company Name</label>
+                                <input type="text" id="company-name" class="form-control" placeholder="e.g. Google, Microsoft, Apple" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="job-role">Job Role</label>
+                                <input type="text" id="job-role" class="form-control" placeholder="e.g. Software Engineer, Data Scientist" required>
+                            </div>
+
+                            <button type="submit" id="research-btn" class="btn btn--primary btn--full-width">
+                                <span class="btn-text">Start Research</span>
+                                <div class="spinner hidden" id="research-spinner"></div>
+                            </button>
+                        </form>
+
+                        <div id="research-results" class="results-section hidden">
+                            <h3>Research Results</h3>
+                            <div class="results-grid">
+                                <div class="result-card">
+                                    <h4>Company Overview</h4>
+                                    <div id="company-overview" class="research-content">
+                                        <div class="research-item">
+                                            <h5>Company Size</h5>
+                                            <p id="company-size">Loading...</p>
+                                        </div>
+                                        <div class="research-item">
+                                            <h5>Business Domain</h5>
+                                            <p id="company-domain">Loading...</p>
+                                        </div>
+                                        <div class="research-item">
+                                            <h5>Latest News</h5>
+                                            <div id="company-news">Loading...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="result-card">
+                                    <h4>Role Requirements</h4>
+                                    <div id="role-requirements" class="research-content">
+                                        <div class="research-item">
+                                            <h5>Required Skills</h5>
+                                            <div id="role-skills">Loading...</div>
+                                        </div>
+                                        <div class="research-item">
+                                            <h5>Experience Level</h5>
+                                            <p id="role-experience">Loading...</p>
+                                        </div>
+                                        <div class="research-item">
+                                            <h5>Salary Range</h5>
+                                            <p id="role-salary">Loading...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Shared Modals -->
+        <div id="interview-summary-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Interview Summary</h3>
+                </div>
+                <div class="modal-body">
+                    <div id="interview-summary-content"></div>
+                </div>
+                <div class="modal-footer">
+                    <button id="close-interview-summary-btn" class="btn btn--primary">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div id="loading-overlay" class="loading-overlay hidden">
+            <div class="spinner"></div>
+            <p>Processing your request...</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

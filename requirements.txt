@@ -1,0 +1,11 @@
+flask
+flask-cors
+werkzeug
+requests
+beautifulsoup4
+pydub
+openai-whisper
+llama-cpp-python
+PyPDF2
+pdfplumber
+python-magic

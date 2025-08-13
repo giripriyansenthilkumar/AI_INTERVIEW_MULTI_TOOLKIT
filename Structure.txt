@@ -1,0 +1,34 @@
+backend/
+│
+├── app.py                     # Flask main entry point
+│
+├── requirements.txt           # Python dependencies
+│
+├── config/
+│   ├── settings.py            # Model paths, API keys (if any)
+│
+├── models/
+│   ├── whisper/               # Whisper model for STT
+│   │   ├── load_model.py
+│   │   ├── transcribe.py
+│   ├── llama/                 # LLaMA model for text generation
+│   │   ├── load_model.py
+│   │   ├── generate.py
+│
+├── routes/
+│   ├── interview.py           # Task 1: AI mock interview
+│   ├── resume.py              # Task 2: Resume optimizer
+│   ├── research.py            # Task 3: Research agent
+│
+├── utils/
+│   ├── pdf_parser.py          # Extract text from resumes
+│   ├── keyword_matcher.py     # Match JD keywords
+│   ├── web_scraper.py         # Research task - Tavily/SerpAPI integration
+│
+├── uploads/
+│   ├── audio/                 # Uploaded interview audio files
+│   ├── resumes/               # Uploaded resumes
+│
+└── outputs/
+    ├── resumes/               # Optimized resumes
+    ├── reports/               # Research summaries

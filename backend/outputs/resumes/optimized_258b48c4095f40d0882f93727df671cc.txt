@@ -1,0 +1,34 @@
+**Giripriyan S**
+giri2006priyan@gmail.com | +91 9789187415 | Coimbatore | [LinkedIn Profile URL (Optional)]
+
+**Summary**
+
+Highly motivated and results-oriented third-year AIML student at Sri Shakthi Institute of Engineering and Technology, proficient in Python, data analysis, machine learning, and database management (MongoDB, MySQL).  Proven ability to develop and deploy AI-powered applications, demonstrated through successful projects involving natural language processing (NLP), speech-to-text transcription, and real-time data analysis. Seeking a Data Analyst position to leverage analytical skills and contribute to data-driven decision-making.
+
+
+**Skills**
+
+* **Programming Languages:** Python (Flask, Django), JavaScript
+* **Databases:** MongoDB, MySQL
+* **Machine Learning:**  TensorFlow, Keras, Transformers, Scikit-learn (add if applicable),  Natural Language Processing (NLP), Deep Learning
+* **Data Analysis:**  Pandas, NumPy, Data Visualization (add specific libraries if used, e.g., Matplotlib, Seaborn)
+* **Web Development:** HTML, CSS,  REST APIs (add if applicable)
+* **Tools & Technologies:** Git,  Whisper (speech-to-text), PyQt/Tkinter (GUI Development)
+
+
+**Projects**
+
+* **FactWave (Misinformation Detection):** Developed a Flask application using NLP (Transformers) and speech-to-text (Whisper) to detect fake news from live audio broadcasts. Integrated a fact-checking module with a verified claim database, achieving [quantifiable result, e.g., 90% accuracy in identifying misinformation].
+* **Voice Fusion (Multilingual Dubbing):**  Built an AI-powered application using Python and deep learning models to translate and dub English movie dialogues into natural Tamil speech, preserving tone and lip-sync.  [Quantifiable result, e.g., Achieved X% accuracy in natural-sounding dubbing].
+* **AI Approval Process Portal:** Created an AI-powered portal using Python, Flask, and ML-based content extraction to automate document approval processes, resulting in a [quantifiable result, e.g., Y% reduction in processing time].
+
+
+**Education**
+
+* **B.Tech (Artificial Intelligence and Machine Learning), 2023-2027**  Sri Shakthi Institute of Engineering and Technology
+* **Senior Secondary (XII), Science, 2023** GRD CPF Matriculation Higher Secondary School, Tamil Nadu State Board (83.33%)
+
+
+**Portfolio**
+
+[GitHub link]

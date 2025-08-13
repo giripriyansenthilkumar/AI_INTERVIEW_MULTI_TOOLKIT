@@ -1,0 +1,42 @@
+Giripriyan S
+giri2006priyan@gmail.com | +91 9789187415 | Coimbatore
+CAREER OBJECTIVE
+I am a passionate 3rd-year AIML student skilled in Python, Flask, and MongoDB. Built real-time AI projects like Voice Fusion and
+FactWave. Eager to solve real-world problems using ML and committed to continuous learning and innovation in AI.
+EDUCATION
+B.Tech, 2023 - 2027
+Sri Shakthi Institute of Engineering and Technology
+Senior Secondary (XII), Tamil Nadu State Board 2023
+Science
+GRD CPF Matriculation Higher Secondary School
+Percentage: 83.33%
+PORTFOLIO
+GitHub link ↗
+PROJECTS
+FACTWAVE - A MISINFORMATION DETECTION VOICE FUSION – AI-POWERED MULTILINGUAL
+TOOL ↗ DUBBING SYSTEM ↗
+Mar 2025 - Jul 2025 Apr 2025 - Jun 2025
+Developed a Flask application to detect fake news from live Developed an AI-based application that converts English
+audio broadcasts. movie dialogues into natural Tamil speech while preserving
+Integrated speech-to-text transcription (whisper) and applied tone, emotion, and lip-sync.
+NLP techniques (transformer) for content analysis. Implemented speech extraction, voice cloning, translation,
+Created a fact-checking module using a verified claim and audio synthesis using Python libraries and deep learning
+database and displayed prediction confidence through a models.
+user-friendly dashboard. Designed a user-friendly desktop interface using
+PyQt/Tkinter for seamless movie dubbing workflows.
+AI APPROVAL PROCESS PORTAL ↗
+Aug 2024 - Oct 2024
+Built an AI-powered portal to automate approval by matching
+user-entered text with uploaded documents using ML-based
+content extraction and verification.
+Implemented with Python, Flask, and integrated AI models for
+accurate, real-time validation.
+SKILLS
+• Python • CSS • HTML
+• Machine Learning • Artificial intelligence • Deep Learning
+• Django • Flask • MySQL
+• JavaScript • MongoDB • Git
+• TensorFlow • Keras • Transformers
+• NumPy • Pandas • Transcription
+• Translation
+Page - 1/1

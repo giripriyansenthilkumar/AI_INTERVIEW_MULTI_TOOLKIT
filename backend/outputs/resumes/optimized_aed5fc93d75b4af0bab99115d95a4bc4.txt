@@ -1,0 +1,23 @@
+JOHN SMITH
+123 Main St, City, State
+Email: john.smith@email.com
+Phone: (555) 555-5555
+
+Professional Summary:
+Results-driven Software Engineer with 5+ years of experience in Python, cloud, and web development. Proven track record of delivering scalable solutions and collaborating in cross-functional teams.
+
+Skills:
+- Python
+- Cloud Computing
+- Web Development
+- Problem Solving
+- Communication
+
+Experience:
+Software Engineer, TechCorp (2019-2024)
+- Developed and deployed cloud-based applications.
+- Improved system performance by 30%.
+- Led migration to microservices architecture.
+
+Education:
+B.S. in Computer Science, University of Somewhere

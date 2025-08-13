@@ -1,0 +1,33 @@
+**Giripriyan S**
+giri2006priyan@gmail.com | +91 9789187415 | Coimbatore | [LinkedIn Profile URL (if available)]
+
+**Summary**
+
+Highly motivated and results-oriented third-year AIML student at Sri Shakthi Institute of Engineering and Technology, proficient in Python, Machine Learning, and data analysis techniques.  Proven ability to develop and deploy AI-powered applications, demonstrated through the creation of innovative projects addressing real-world problems in misinformation detection and multilingual content processing.  Seeking an entry-level Data Analyst position to leverage analytical skills and contribute to data-driven decision-making.
+
+**Skills**
+
+* **Programming Languages:** Python (Flask, Django), JavaScript
+* **Databases:** MongoDB, MySQL
+* **Machine Learning:** Deep Learning, NLP (Transformers), TensorFlow, Keras,  Scikit-learn (add if applicable)
+* **Data Analysis:** Pandas, NumPy, Data Visualization (add specific libraries like Matplotlib, Seaborn if used)
+* **Tools & Technologies:** Git, HTML, CSS,  Whisper API (mention if used extensively), PyQt/Tkinter
+* **Other:**  Data Mining, Data Cleaning,  Speech-to-Text,  Machine Translation
+
+
+**Projects**
+
+* **FactWave – Misinformation Detection System (Mar 2025 – Jul 2025):** Developed a Flask application integrating speech-to-text (Whisper API), NLP (Transformer models), and a fact-checking module to detect fake news from live audio broadcasts. Achieved [quantifiable result, e.g., X% accuracy in fake news detection].
+* **Voice Fusion – AI-Powered Multilingual Dubbing System (Apr 2025 – Jun 2025):** Built an AI-based application using Python and deep learning models to translate and dub English movie dialogues into natural Tamil, preserving tone and lip-sync.  Improved [quantifiable result, e.g., dubbing efficiency by Y%].
+* **AI Approval Process Portal (Aug 2024 – Oct 2024):** Created an AI-powered portal using Python and Flask, automating document approval through ML-based content extraction and verification. Streamlined [quantifiable result, e.g., approval process by Z%].
+
+
+**Education**
+
+* **B.Tech (Artificial Intelligence and Machine Learning), 2023 – 2027**  Sri Shakthi Institute of Engineering and Technology
+* **Senior Secondary (XII), Science, 83.33%** GRD CPF Matriculation Higher Secondary School, Tamil Nadu State Board, 2023
+
+
+**Portfolio**
+
+[GitHub Link]

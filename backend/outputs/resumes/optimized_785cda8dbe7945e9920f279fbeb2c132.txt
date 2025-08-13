@@ -1,0 +1,34 @@
+**Giripriyan S**
+giri2006priyan@gmail.com | +91 9789187415 | Coimbatore
+
+**Summary**
+
+Highly motivated and results-oriented third-year AIML student at Sri Shakthi Institute of Engineering and Technology, proficient in Python, data analysis, and machine learning (ML) techniques. Proven ability to develop and deploy AI-powered applications, leveraging NLP, deep learning, and database integration to solve real-world problems. Seeking a Data Analyst position to contribute analytical skills and innovative solutions.
+
+**Experience**
+
+**AI-Powered Projects**
+
+* **FactWave – Misinformation Detection Tool (Mar 2025 – Jul 2025):** Developed a Flask application integrating speech-to-text (Whisper), NLP (Transformer models), and a verified claim database to detect fake news from live audio broadcasts. Achieved [Quantifiable Result, e.g., 90% accuracy in detecting misinformation].  Improved efficiency by [Quantifiable Result, e.g., 20%] through optimized database queries.
+* **Voice Fusion – AI-Powered Multilingual Dubbing System (Apr 2025 – Jun 2025):** Designed and implemented an AI application using Python and deep learning models to translate and dub English movie dialogues into natural-sounding Tamil, preserving tone and lip-sync.  Successfully processed [Quantifiable Result, e.g., 100+ minutes] of audio with high fidelity.
+* **AI Approval Process Portal (Aug 2024 – Oct 2024):**  Built an AI-powered portal using Python, Flask, and ML-based content extraction to automate document approval processes.  Reduced processing time by [Quantifiable Result, e.g., 50%] through automated validation.
+
+**Education**
+
+* **B.Tech in Artificial Intelligence and Machine Learning (AIML), 2023 – 2027**  Sri Shakthi Institute of Engineering and Technology, Coimbatore
+* **Senior Secondary (XII), Science, 2023** GRD CPF Matriculation Higher Secondary School, Tamil Nadu.  83.33%
+
+
+**Skills**
+
+* **Programming Languages:** Python (Flask, Django), JavaScript
+* **Databases:** MySQL, MongoDB
+* **Machine Learning/AI:**  Deep Learning, Natural Language Processing (NLP), Machine Learning (ML) algorithms, Transformers, TensorFlow, Keras, NumPy, Pandas
+* **Data Analysis:** Data Cleaning, Data Transformation, Data Visualization
+* **Web Development:** HTML, CSS, Git
+* **Tools:**  Whisper API, PyQt/Tkinter
+
+
+**Portfolio**
+
+[GitHub Link]

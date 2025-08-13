@@ -1,0 +1,37 @@
+**Giripriyan S**
+giri2006priyan@gmail.com | +91 9789187415 | Coimbatore
+
+**Summary**
+
+Highly motivated and results-oriented third-year AIML student at Sri Shakthi Institute of Engineering and Technology, proficient in Python, data analysis, and machine learning.  Experienced in building AI-powered applications using Flask, MongoDB, and various deep learning libraries (TensorFlow, Keras, Transformers).  Seeking a Data Analyst role to leverage analytical skills and contribute to data-driven decision-making.
+
+
+**Education**
+
+* **B.Tech in Artificial Intelligence and Machine Learning (AIML), Expected Graduation: 2027**
+    * Sri Shakthi Institute of Engineering and Technology, Coimbatore
+* **Senior Secondary (XII), Science, 83.33%**
+    * GRD CPF Matriculation Higher Secondary School, Tamil Nadu
+
+
+**Projects**
+
+* **FactWave: Misinformation Detection System (Mar 2025 – Jul 2025)**
+    * Developed a Flask application to detect fake news from live audio broadcasts using speech-to-text transcription (Whisper), NLP techniques (Transformers), and a verified claim database.
+    * Achieved [Quantifiable Result, e.g., X% accuracy in fake news detection].  Presented prediction confidence via a user-friendly dashboard.
+* **Voice Fusion: AI-Powered Multilingual Dubbing System (Apr 2025 – Jun 2025)**
+    * Created an AI application converting English movie dialogues into natural Tamil speech, preserving tone, emotion, and lip-sync using Python and deep learning models.
+    * Implemented speech extraction, voice cloning, translation, and audio synthesis.  Developed a user-friendly PyQt/Tkinter desktop interface.
+* **AI Approval Process Portal (Aug 2024 – Oct 2024)**
+    * Built an AI-powered portal automating approvals by matching user-entered text with uploaded documents using ML-based content extraction and verification (Python, Flask).
+    * Achieved [Quantifiable Result, e.g., Y% improvement in approval processing time].
+
+
+**Skills**
+
+* **Programming Languages:** Python (Flask, Django), JavaScript
+* **Databases:** MongoDB, MySQL
+* **Machine Learning & AI:** Deep Learning, Machine Learning, NLP (Transformers), TensorFlow, Keras, NumPy, Pandas
+* **Data Analysis:** Data Extraction, Data Cleaning, Data Visualization (mention specific libraries if used)
+* **Web Development:** HTML, CSS, Git
+* **Other:** Speech-to-Text, Text-to-Speech, Translation,  Data Mining

@@ -1,0 +1,29 @@
+**Giripriyan S**
+giri2006priyan@gmail.com | +91 9789187415 | Coimbatore
+
+**Summary**
+
+Highly motivated and results-oriented 3rd-year AIML student at Sri Shakthi Institute of Engineering and Technology seeking a Data Analyst position. Proven ability to leverage Python, machine learning, and deep learning techniques to develop and implement data-driven solutions.  Experienced in data extraction, analysis, and visualization, with a strong portfolio showcasing successful projects in NLP, speech processing, and AI-powered applications.
+
+**Education**
+
+* **B.Tech, Artificial Intelligence and Machine Learning (AIML),** Sri Shakthi Institute of Engineering and Technology, Coimbatore (Expected Graduation: 2027)
+* **Senior Secondary (XII), Science,** GRD CPF Matriculation Higher Secondary School, Tamil Nadu (2023) – 83.33%
+
+**Technical Skills**
+
+* **Programming Languages:** Python (Flask, Django), JavaScript, HTML, CSS
+* **Databases:** MySQL, MongoDB
+* **Machine Learning & Deep Learning:** TensorFlow, Keras, Transformers, Scikit-learn, NumPy, Pandas
+* **NLP & Speech Processing:**  Speech-to-text transcription, Natural Language Processing (NLP), Voice Cloning, Text-to-Speech
+* **Tools & Technologies:** Git, Jupyter Notebook, PyQt/Tkinter
+
+**Projects**
+
+* **FactWave – Misinformation Detection System (Mar 2025 – Jul 2025):** Developed a Flask application integrating speech-to-text, NLP, and a fact-checking module to detect fake news from live audio broadcasts. Achieved [quantifiable result, e.g., 90% accuracy in fake news detection].
+* **Voice Fusion – AI-Powered Multilingual Dubbing System (Apr 2025 – Jun 2025):**  Built an AI application using Python and deep learning models to translate and dub English movie dialogues into natural-sounding Tamil, preserving tone and lip-sync. [quantifiable result, e.g.,  Reduced dubbing time by X%].
+* **AI Approval Process Portal (Aug 2024 – Oct 2024):** Created an AI-powered portal using Python, Flask, and ML-based content extraction to automate document approval processes.  Improved efficiency by [quantifiable result, e.g., automating X% of approvals].
+
+**Portfolio**
+
+[GitHub Link]
